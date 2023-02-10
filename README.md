@@ -84,6 +84,13 @@ image(volcano, col = pal)
 ![](figure/volcano-1.png)
 
 ``` r
+pal <- drygate_palette("TakeMeTotheRiver", 21, type = "continuous")
+image(volcano, col = pal)
+```
+
+![](figure/test-1.png)
+
+``` r
 # pal <- drygate_palette("TakeMeTotheRiver", 100, type = "continuous")
 # # heatmap is a local dataset
 # ggplot(heatmap, aes(x = X2, y = X1, fill = value)) +
