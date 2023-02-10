@@ -12,7 +12,7 @@ drygate_palettes <- list(
 
 #' A Drygate brewery palette generator
 #'
-#' These are a handful of color palettes from Wes Anderson movies.
+#' These are a handful of color palettes from Drygate brewery.
 #'
 #' @param n Number of colors desired. Unfortunately most palettes now only
 #'   have 4 or 5 colors. If omitted, uses all colours.
@@ -34,7 +34,7 @@ drygate_palettes <- list(
 #' # If you need more colours than normally found in a palette, you
 #' # can use a continuous palette to interpolate between existing
 #' # colours
-#' pal <- wes_palette(21, name = "Zissou1", type = "continuous")
+#' pal <- drygate_palette(21, name = "DiscoForkliftTruck", type = "continuous")
 #' image(volcano, col = pal)
 drygate_palette <- function(name, n, type = c("discrete", "continuous")) {
   type <- match.arg(type)
