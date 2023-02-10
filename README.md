@@ -63,7 +63,7 @@ ggplot(mtcars, aes(factor(cyl), fill=factor(vs))) +  geom_bar() +
   scale_fill_manual(values = drygate_palette("DiscoForkliftTruck"))
 ```
 
-![](figure/ggplot1-1.png)
+![](figure/ggplot_disco-1.png)
 
 ``` r
 
@@ -73,14 +73,14 @@ ggplot(mtcars, aes(factor(cyl), fill=factor(vs))) +  geom_bar() +
   scale_fill_manual(values = pal[c(3,5)])
 ```
 
-![](figure/ggplot1-2.png)
+![](figure/ggplot_disco-2.png)
 
 ``` r
 pal <- drygate_palette("TakeMeTotheRiver", 21, type = "continuous")
 image(volcano, col = pal)
 ```
 
-![](figure/volcano-1.png)
+![](figure/ggplot_river-1.png)
 
 ``` r
 # pal <- drygate_palette("TakeMeTotheRiver", 100, type = "continuous")
