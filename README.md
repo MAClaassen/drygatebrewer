@@ -55,7 +55,7 @@ drygate_palette("TakeMeTotheRiver")
 drygate_palette("CrossingtheRubicon")
 ```
 
-![](figure/crossingtherubicon2-1.png)
+![](figure/crossingtherubicon-1.png)
 
 ``` r
 library("ggplot2")

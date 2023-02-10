@@ -60,7 +60,7 @@ drygate_palette("TakeMeTotheRiver")
 
 ### Crossing the Rubicon
 
-```{r, crossingtherubicon2}
+```{r, crossingtherubicon}
 drygate_palette("CrossingtheRubicon")
 ```
 
