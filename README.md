@@ -55,7 +55,7 @@ drygate_palette("TakeMeTotheRiver")
 drygate_palette("CrossingtheRubicon")
 ```
 
-![](figure/crossingtherubicon-1.png)
+![](figure/crossingtherubicon2-1.png)
 
 ``` r
 library("ggplot2")
@@ -81,14 +81,3 @@ image(volcano, col = pal)
 ```
 
 ![](figure/ggplot_river-1.png)
-
-``` r
-# pal <- drygate_palette("TakeMeTotheRiver", 100, type = "continuous")
-# # heatmap is a local dataset
-# ggplot(heatmap, aes(x = X2, y = X1, fill = value)) +
-#   geom_tile() + 
-#   scale_fill_gradientn(colours = pal) + 
-#   scale_x_discrete(expand = c(0, 0)) +
-#   scale_y_discrete(expand = c(0, 0)) + 
-#   coord_equal() 
-```
