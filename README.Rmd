@@ -39,6 +39,10 @@ devtools::install_github("MAClaassen/drygatebrewer")
 ## Usage
 
 ```{r, palettes_dummy}
+install.packages("cli")
+library("cli")
+
+devtools::install_github("MAClaassen/drygatebrewer")
 library("drygatebrewer")
 
 # See all palettes

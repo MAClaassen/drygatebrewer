@@ -1,6 +1,6 @@
-Package: wesanderson
-Title: A Wes Anderson Palette Generator
-Description: Palettes generated mostly from 'Wes Anderson' movies.
+Package: drygatebrewer
+Title: A Drygate brewery Palette Generator
+Description: Palettes generated mostly from Drygate brewery.
 Date: 2018-03-29
 Version: 0.3.6.9000
 Authors@R: c(person("Karthik", "Ram", role = c("aut", "cre"),
@@ -17,6 +17,6 @@ License: MIT + file LICENSE
 LazyData: true
 Suggests:
     ggplot2
-URL: https://github.com/karthik/wesanderson
-BugReports: https://github.com/karthik/wesanderson/issues
+URL: https://github.com/MAClaassen/drygatebrewer
+BugReports: https://github.com/MAClaassen/drygatebrewer/issues
 RoxygenNote: 6.0.1
