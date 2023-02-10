@@ -83,3 +83,4 @@ print.palette <- function(x, ...) {
 #'
 #' A heatmap example
 "heatmap"
+

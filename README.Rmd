@@ -71,12 +71,12 @@ image(volcano, col = pal)
 ```
 
 ```{r, zissou_heatmap, fig.height = 3}
-pal <- drygate_palette("TakeMeTotheRiver", 100, type = "continuous")
-# heatmap is a local dataset
-ggplot(heatmap, aes(x = X2, y = X1, fill = value)) +
-  geom_tile() + 
-  scale_fill_gradientn(colours = pal) + 
-  scale_x_discrete(expand = c(0, 0)) +
-  scale_y_discrete(expand = c(0, 0)) + 
-  coord_equal() 
+# pal <- drygate_palette("TakeMeTotheRiver", 100, type = "continuous")
+# # heatmap is a local dataset
+# ggplot(heatmap, aes(x = X2, y = X1, fill = value)) +
+#   geom_tile() + 
+#   scale_fill_gradientn(colours = pal) + 
+#   scale_x_discrete(expand = c(0, 0)) +
+#   scale_y_discrete(expand = c(0, 0)) + 
+#   coord_equal() 
 ```
