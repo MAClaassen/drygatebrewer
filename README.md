@@ -26,7 +26,6 @@ devtools::install_github("MAClaassen/drygatebrewer")
 
 ``` r
 library("drygatebrewer")
-
 # See all palettes
 names(drygate_palettes)
 #> [1] "DiscoForkliftTruck"      "TakeMeTotheRiver"       
