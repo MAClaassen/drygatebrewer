@@ -81,11 +81,6 @@ pal <- drygate_palette("TakeMeTotheRiver", 21, type = "continuous")
 image(volcano, col = pal)
 ```
 
-```{r, test, fig.height = 3}
-pal <- drygate_palette("TakeMeTotheRiver", 21, type = "continuous")
-image(volcano, col = pal)
-```
-
 ```{r, zissou_heatmap, fig.height = 3}
 # pal <- drygate_palette("TakeMeTotheRiver", 100, type = "continuous")
 # # heatmap is a local dataset
