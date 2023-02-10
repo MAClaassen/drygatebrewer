@@ -30,7 +30,7 @@ Credits go to Karthik Ram and his [Wes Anderson color palette package](https://g
 install.packages("")
 ```
   
-__Or the development version__
+__The development version__
 
 ```r
 devtools::install_github("MAClaassen/drygatebrewer")
@@ -39,7 +39,6 @@ devtools::install_github("MAClaassen/drygatebrewer")
 ## Usage
 
 ```{r, palettes_dummy}
-# devtools::install_github("MAClaassen/drygatebrewer")
 library("drygatebrewer")
 
 # See all palettes
@@ -48,19 +47,32 @@ names(drygate_palettes)
 
 ## Palettes
 
+### DiscoForkliftTruck
+
+```{r, discoforklifttruck}
+drygate_palette("DiscoForkliftTruck")
+```
+
 ### Take Me To the River
 
 ```{r, takemetotheriver}
 drygate_palette("TakeMeTotheRiver")
 ```
 
+### Crossing the Rubicon
+
+```{r, crossingtherubicon}
+drygate_palette("CrossingtheRubicon")
+```
+
+
 ```{r, ggplot1, fig.height = 3}
 library("ggplot2")
 ggplot(mtcars, aes(factor(cyl), fill=factor(vs))) +  geom_bar() +
-  scale_fill_manual(values = drygate_palette("TakeMeTotheRiver"))
+  scale_fill_manual(values = drygate_palette("DiscoForkliftTruck"))
 
-pal <- drygate_palettes$TakeMeTotheRiver
 # pick specific colors
+pal <- drygate_palettes$DiscoForkliftTruck
 ggplot(mtcars, aes(factor(cyl), fill=factor(vs))) +  geom_bar() +
   scale_fill_manual(values = pal[c(3,5)])
 ```

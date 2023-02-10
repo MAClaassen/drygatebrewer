@@ -16,7 +16,7 @@ package](https://github.com/karthik/wesanderson) for the code.
 install.packages("")
 ```
 
-**Or the development version**
+**The development version**
 
 ``` r
 devtools::install_github("MAClaassen/drygatebrewer")
@@ -25,7 +25,6 @@ devtools::install_github("MAClaassen/drygatebrewer")
 ## Usage
 
 ``` r
-# devtools::install_github("MAClaassen/drygatebrewer")
 library("drygatebrewer")
 
 # See all palettes
@@ -36,6 +35,14 @@ names(drygate_palettes)
 
 ## Palettes
 
+### DiscoForkliftTruck
+
+``` r
+drygate_palette("DiscoForkliftTruck")
+```
+
+![](figure/discoforklifttruck-1.png)
+
 ### Take Me To the River
 
 ``` r
@@ -44,18 +51,26 @@ drygate_palette("TakeMeTotheRiver")
 
 ![](figure/takemetotheriver-1.png)
 
+### Crossing the Rubicon
+
+``` r
+drygate_palette("CrossingtheRubicon")
+```
+
+![](figure/crossingtherubicon-1.png)
+
 ``` r
 library("ggplot2")
 ggplot(mtcars, aes(factor(cyl), fill=factor(vs))) +  geom_bar() +
-  scale_fill_manual(values = drygate_palette("TakeMeTotheRiver"))
+  scale_fill_manual(values = drygate_palette("DiscoForkliftTruck"))
 ```
 
 ![](figure/ggplot1-1.png)
 
 ``` r
 
-pal <- drygate_palettes$TakeMeTotheRiver
 # pick specific colors
+pal <- drygate_palettes$DiscoForkliftTruck
 ggplot(mtcars, aes(factor(cyl), fill=factor(vs))) +  geom_bar() +
   scale_fill_manual(values = pal[c(3,5)])
 ```
