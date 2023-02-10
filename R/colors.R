@@ -7,7 +7,7 @@ drygate_palettes <- list(
   DiscoForkliftTruck = c("#2d2c2b", "#f29f17","#e54b5d","#77b44a","#eee204", "#fdfdfd"),
   TakeMeTotheRiver = c("#792149","#ed347e","#34b77b","#c0d73d","#fcd92c","#cfd0d2","#fefefe"),
   CrossingtheRubicon = c("#08162e", "#cfd0d2", "#eb1d56", "#f05666", "#f7a02d", "#0fc0d2", "#ffffff"),
-  CrossingtheRubicon_auto = c("#08162e", "#ecd2c3", "#e42257", "#16b3c6", "#e27076", "#8a5b7b", "#da8fae")
+  # CrossingtheRubicon_auto = c("#08162e", "#ecd2c3", "#e42257", "#16b3c6", "#e27076", "#8a5b7b", "#da8fae")
   )
 
 #' A Drygate brewery palette generator
