@@ -79,15 +79,6 @@ drygate_palette("CrossingtheRubicon")
 drygate_palette("CrossingtheRubicon")
 drygate_palette("CrossingtheRubicon_auto")
 
-ggplot(mtcars, aes(factor(cyl), fill=factor(vs))) +  geom_bar() +
-  scale_fill_manual(values = drygate_palette("TakeMeTotheRiver"))
-
-# pick specific colors
-pal <- drygate_palettes$TakeMeTotheRiver
-
-ggplot(mtcars, aes(factor(cyl), fill=factor(vs))) +  geom_bar() +
-  scale_fill_manual(values = pal[c(3,5)])
-
 #' heatmap
 #'
 #' A heatmap example
