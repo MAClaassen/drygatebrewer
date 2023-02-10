@@ -73,11 +73,11 @@ print.palette <- function(x, ...) {
   text((n + 1) / 2, 1, labels = attr(x, "name"), cex = 1, family = "serif")
 }
 
-# Examples
-drygate_palette("DiscoForkliftTruck")
-drygate_palette("CrossingtheRubicon")
-drygate_palette("CrossingtheRubicon")
-drygate_palette("CrossingtheRubicon_auto")
+# # Examples
+# drygate_palette("DiscoForkliftTruck")
+# drygate_palette("CrossingtheRubicon")
+# drygate_palette("CrossingtheRubicon")
+# drygate_palette("CrossingtheRubicon_auto")
 
 #' heatmap
 #'
