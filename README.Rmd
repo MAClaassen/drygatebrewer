@@ -46,7 +46,7 @@ names(drygate_palettes)
 
 ## Palettes
 
-### Monochromatic
+### Basic
 
 #### Seven Peaks
 
@@ -71,7 +71,7 @@ drygate_palette("KelvinPilsner")
 drygate_palette("BearfaceLager")
 ```
 
-### Polychromatic
+### Fun
 
 #### Disco Forklift Truck
 
