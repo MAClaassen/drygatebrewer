@@ -46,24 +46,52 @@ names(drygate_palettes)
 
 ## Palettes
 
-### DiscoForkliftTruck
+### Monochromatic
+
+#### Seven Peaks
+
+```{r, fig_sevenpeaks}
+drygate_palette("SevenPeaks")
+```
+#### GladEye IPA
+
+```{r, fig_gladeye_ipa}
+drygate_palette("GladEyeIPA")
+```
+
+#### Kelvin Pilsner
+
+```{r, fig_kelvinpilsner}
+drygate_palette("KelvinPilsner")
+```
+
+#### Bearface Lager
+
+```{r, fig_bearfacelager}
+drygate_palette("BearfaceLager")
+```
+
+### Polychromatic
+
+#### Disco Forklift Truck
 
 ```{r, fig_discoforklifttruck}
 drygate_palette("DiscoForkliftTruck")
 ```
 
-### Take Me To the River
+#### Take Me To the River
 
 ```{r, fig_takemetotheriver}
 drygate_palette("TakeMeTotheRiver")
 ```
 
-### Crossing the Rubicon
+#### Crossing the Rubicon
 
 ```{r, fig_crossingtherubicon}
 drygate_palette("CrossingtheRubicon")
 ```
 
+### Example uses
 
 ```{r, fig_ex_disco, fig.height = 3}
 library("ggplot2")
