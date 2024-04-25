@@ -13,6 +13,9 @@ knitr::opts_chunk$set(
   fig.path = "figure/",
   fig.height = 1
 )
+
+require(markdown) # required for md to html 
+markdownToHTML('README.md', 'README.html') # creates html file
 ```
 
 # Drygate Brewery Color Palettes
@@ -53,6 +56,7 @@ names(drygate_palettes)
 ```{r, fig_sevenpeaks}
 drygate_palette("SevenPeaks")
 ```
+
 #### GladEye IPA
 
 ```{r, fig_gladeye_ipa}
