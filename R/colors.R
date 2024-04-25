@@ -20,7 +20,7 @@ drygate_palettes <- list(
 #' @param n Number of colors desired. Unfortunately most palettes now only
 #'   have 4 or 5 colors. If omitted, uses all colours.
 #' @param name Name of desired palette. Choices are:
-#'   \code{DiscoForkliftTruck}, \code{TakeMeTotheRiver},  \code{CrossingtheRubicon},
+#'   \code{SevenPeaks}, \code{DiscoForkliftTruck}, \code{TakeMeTotheRiver},  \code{CrossingtheRubicon},
 #'   \code{CrossingtheRubicon_auto}
 #' @param type Either "continuous" or "discrete". Use continuous if you want
 #'   to automatically interpolate between colours.
@@ -29,6 +29,7 @@ drygate_palettes <- list(
 #' @export
 #' @keywords colors
 #' @examples
+#' drygate_palette("SevenPeaks")
 #' drygate_palette("DiscoForkliftTruck")
 #' drygate_palette("TakeMeTotheRiver")
 #' drygate_palette("CrossingtheRubicon")
